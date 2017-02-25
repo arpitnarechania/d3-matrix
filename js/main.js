@@ -38,8 +38,8 @@ function drawChart(){
 
     var chart_options = {
         container: "#Matrix",
-        width: 200,
-        height: 200,
+        width: 100,
+        height: 100,
         margin: {top: 50, right: 50, bottom: 100, left: 100},
         show_labels : labels,
         start_color : startColor,
