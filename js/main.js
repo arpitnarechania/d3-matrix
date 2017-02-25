@@ -38,9 +38,9 @@ function drawChart(){
 
     var chart_options = {
         container: "#Matrix",
-        width: 100,
-        height: 100,
-        margin: {top: 50, right: 50, bottom: 100, left: 100},
+        width: chartElement.offsetWidth,
+        height: chartElement.offsetWidth,
+        margin: {top: 50, right: 50, bottom: 100, left: 50},
         show_labels : labels,
         start_color : startColor,
         end_color : endColor,
