@@ -37,18 +37,18 @@ function drawChart(){
     };
 
     var chart_options = {
-            container: "#Matrix",
-            width: 400,
-            height: 400,
-            margin: {top: 50, right: 50, bottom: 100, left: 100},
-            show_labels : labels,
-            start_color : startColor,
-            end_color : endColor,
-            highlight_cell_on_hover: highlightCellOnHover,
-            highlight_cell_color: highlightCellColor
-        };
+        container: "#Matrix",
+        width: 200,
+        height: 200,
+        margin: {top: 50, right: 50, bottom: 100, left: 100},
+        show_labels : labels,
+        start_color : startColor,
+        end_color : endColor,
+        highlight_cell_on_hover: highlightCellOnHover,
+        highlight_cell_color: highlightCellColor
+    };
 
-    Matrix(data,chart_options); // data is served from data.js
+    Matrix(data,chart_options);
 }
 
 var startColor = document.getElementById("startColor").value;

@@ -128,7 +128,13 @@ table, th, tr, td{
    border: 1px solid black;
    padding: 5px;
 }
+
 table{
     width: 100%;
     border-collapse: collapse;
+}
+
+#container{
+    width: 50%;
+    margin: 0 auto;
 }
